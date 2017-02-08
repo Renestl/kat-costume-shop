@@ -87,7 +87,7 @@ img {
   max-width: 100%;
 }
 .splash {
-  background-image: url("/assets/images/kats-hero-mobile.jpg");
+  background-image: url("../images/kats-hero-mobile.jpg");
   position: relative;
 }
 .splash img {
@@ -105,7 +105,7 @@ img {
   width: 424px;
   top: 5%;
   left: 45%;
-  margin-left: -175px;
+  margin-left: -195px;
 }
 #splash-left, #splash-right {
   font-size: .75em;
@@ -124,6 +124,7 @@ img {
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
+  margin-left: -175px;
 }
 
 /* On devices wider than 940px */
