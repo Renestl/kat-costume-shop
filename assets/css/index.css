@@ -2,7 +2,7 @@
 font-family: 'PT Sans Narrow', sans-serif;
 font-family: 'PT Serif', serif;*/
 
-body {
+* {
   margin: 0;
   padding: 0;
 }
@@ -60,18 +60,15 @@ footer h1 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
   font-size: 1.25em;
-  color: #323232;
+  color: #eee;
 }
 
 nav h1,
 .main h1,
+#contact h1,
 h2 {
   text-align: center;
 }
-
-/* NAVBAR */
-
-
 
 /* SPLASH IMAGE */
 img {
@@ -110,25 +107,49 @@ img {
 }
 
 /* INTRO SECTION */
+.main h1 {
+  margin-top: 40px;
+}
 
 /* ABOUT */
-
-
+#about {
+  margin-top: 40px;
+}
+.about {
+  margin: 30px auto;
+}
+.profiles img {
+  border-radius: 50%;
+}
+.profiles img:last-child {
+  display: block; 
+  margin: 80px auto;
+}
 
 /* CONTACT */
 .contact h3, 
 .contact p {
   display: inline;
 }
-
 .contact a {
   text-decoration: none;
   white-space: pre;
   text-align: right;
 }
-
+#contact {
+  margin-bottom: 40px;
+}
 /* FOOTER */
+footer {
+  background: #00897f;
+  text-align: center;
+  margin-top: 40px;
+}
 
+footer h1 {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
 
 /* HIDDEN ON MOBILE */
 .hideMobile {
@@ -137,12 +158,76 @@ img {
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
+
+ .hideMobile {
+    display: unset;
+  }
+
+  /* NAVBAR */
+  nav {
+    margin: 10px auto;
+  }
+  .nav-brand {
+    float: left;
+  }
+  .navRight {
+    float: right;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+    display: inline;
+    margin: 0 5px;
+    
+  }
+  .clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  /* SPLASH IMAGE */
   .splash h1 {
     margin-left: -175px;
   }
 
-  .hideMobile {
-    display: unset;
+  /* ABOUT */
+  #about {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  
+  .about {
+    margin: 30px;
+    padding: 0 30px;
+    /*display: inline-block;
+    width: 40%;
+    margin: 0 auto;*/
+  }
+  .profiles img {
+    border-radius: 50%;
+  }
+  .profiles .hideDesktop {
+    display: none !important;
+  }
+
+  .profiles img {
+    width: 30%;
+    margin: 0 1%;
+  }
+  /* CONTACT */
+  .contact-main {
+    display: flex;
+  }
+
+  .contact {
+    padding: 30px;
+    margin: 0 auto;
+  }
+    .contactHeader {
+    display: block;
   }
 }
 
