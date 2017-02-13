@@ -8,11 +8,10 @@ body {
 }
 .container {
   max-width: 80%;
-  margin: 0 auto;
+  margin: 2% auto;
 }
 
 /* FONTS */
-
 h1 {
   font-family:'PT Sans Narrow', sans-serif; 
   font-weight: bold;
@@ -64,25 +63,17 @@ footer h1 {
   color: #323232;
 }
 
-
 nav h1,
 .main h1,
 h2 {
   text-align: center;
 }
 
-.contact h3, 
-.contact p {
-  display: inline;
-}
-
-.contact a {
-  text-decoration: none;
-  white-space: pre;
-  text-align: right;
-}
+/* NAVBAR */
 
 
+
+/* SPLASH IMAGE */
 img {
   max-width: 100%;
 }
@@ -118,13 +109,41 @@ img {
   font-size: 1.875em;
 }
 
+/* INTRO SECTION */
+
+/* ABOUT */
 
 
 
+/* CONTACT */
+.contact h3, 
+.contact p {
+  display: inline;
+}
+
+.contact a {
+  text-decoration: none;
+  white-space: pre;
+  text-align: right;
+}
+
+/* FOOTER */
+
+
+/* HIDDEN ON MOBILE */
+.hideMobile {
+  display: none;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
-  margin-left: -175px;
+  .splash h1 {
+    margin-left: -175px;
+  }
+
+  .hideMobile {
+    display: unset;
+  }
 }
 
 /* On devices wider than 940px */
