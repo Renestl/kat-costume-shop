@@ -17,6 +17,7 @@ h1 {
   font-weight: bold;
   font-size: 1.875em;
   color: #323232;
+  margin-bottom: 10px;
 }
 h2 {
   font-family:'PT Sans Narrow', sans-serif; 
@@ -24,6 +25,7 @@ h2 {
   font-size: 1.5em;
   color: #00897f;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 h3 {
   font-family:'PT Serif', serif; 
@@ -180,7 +182,7 @@ footer h1 {
     list-style: none;
     display: inline;
     margin: 0 5px;
-    
+    text-transform: uppercase;
   }
   .clearfix:after {
     content: " ";
