@@ -143,12 +143,12 @@ img {
 }
 /* FOOTER */
 footer {
-  background: #00897f;
   text-align: center;
   margin-top: 40px;
 }
 
 footer h1 {
+  background: #00897f;
   padding-top: 5px;
   padding-bottom: 15px;
 }
