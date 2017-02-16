@@ -116,6 +116,7 @@ img {
 /* ABOUT */
 #about {
   margin-top: 40px;
+  background-color: #eee;
 }
 .about {
   margin: 30px auto;
@@ -209,6 +210,7 @@ footer h1 {
   #about {
     display: flex;
     margin-bottom: 40px;
+    background-color: white;
   }
   
   .about {
@@ -231,6 +233,11 @@ footer h1 {
     margin: 0 1%;
   }
   /* CONTACT */
+  #contact {
+  margin-bottom: 40px;
+  background-color: #eee;
+  padding: 10px;
+}
   .contact-main {
     display: flex;
   }
