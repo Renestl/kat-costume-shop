@@ -119,6 +119,10 @@ img {
 }
 .about {
   margin: 30px auto;
+  padding: 10px;
+}
+.profiles {
+  margin-bottom: 30px;
 }
 .profiles img {
   border-radius: 50%;
@@ -140,7 +144,10 @@ img {
 }
 #contact {
   margin-bottom: 40px;
+  background-color: #eee;
+  padding: 30px;
 }
+
 /* FOOTER */
 footer {
   text-align: center;
@@ -157,6 +164,9 @@ footer h1 {
 .hideMobile {
   display: none;
 }
+
+
+
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
@@ -204,6 +214,7 @@ footer h1 {
   .about {
     margin: 30px;
     padding: 0 30px;
+    background-color: #eee;
     /*display: inline-block;
     width: 40%;
     margin: 0 auto;*/
@@ -223,14 +234,16 @@ footer h1 {
   .contact-main {
     display: flex;
   }
-
   .contact {
     padding: 30px;
     margin: 0 auto;
+    background-color: #fff;
+
   }
     .contactHeader {
     display: block;
   }
+
 }
 
 /* On devices wider than 940px */
