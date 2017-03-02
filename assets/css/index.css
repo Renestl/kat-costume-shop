@@ -92,10 +92,12 @@ img {
   color: #eee;
   display: inline;
   position: absolute;
-  width: 424px;
+  /*width: 424px;*/
   top: 5%;
   left: 45%;
-  margin-left: -195px;
+  font-size: 1.25em;
+  margin-left: -125px;
+  /*margin-left: -195px;*/
 }
 #splash-left, #splash-right {
   font-size: .75em;
@@ -204,6 +206,7 @@ footer h1 {
   /* SPLASH IMAGE */
   .splash h1 {
     margin-left: -175px;
+   font-size: 2em;
   }
 
   /* ABOUT */
