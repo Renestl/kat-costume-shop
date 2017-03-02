@@ -118,7 +118,8 @@ img {
 /* ABOUT */
 #about {
   margin-top: 40px;
-  background-color: #eee;
+  background-color: #E8DFDF; /* original color #eee */
+  padding: 10px;
 }
 .about {
   margin: 30px auto;
@@ -146,15 +147,21 @@ img {
   text-align: right;
 }
 #contact {
-  margin-bottom: 40px;
-  background-color: #eee;
+  background-color: #E8DFDF; /* original color #eee */
   padding: 30px;
+}
+.contact:last-child {
+  margin-top: 20px;
+}
+
+/* MAP */
+#map {
+  margin: 0;
 }
 
 /* FOOTER */
 footer {
   text-align: center;
-  margin-top: 40px;
 }
 
 footer h1 {
@@ -218,8 +225,8 @@ footer h1 {
   
   .about {
     margin: 30px;
-    padding: 0 30px;
-    background-color: #eee;
+    padding: 30px;
+    background-color: #E8DFDF;
     /*display: inline-block;
     width: 40%;
     margin: 0 auto;*/
@@ -237,18 +244,22 @@ footer h1 {
   }
   /* CONTACT */
   #contact {
-  margin-bottom: 40px;
-  background-color: #eee;
-  padding: 10px;
+  background-color: #E8DFDF;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
   .contact-main {
     display: flex;
+    justify-content: space-around;
+    margin-top:30px;
+    margin-bottom: 10px;
   }
   .contact {
     padding: 30px;
-    margin: 0 auto;
     background-color: #fff;
-
+  }
+  .contact:last-child {
+   margin: 0;
   }
     .contactHeader {
     display: block;
@@ -258,4 +269,7 @@ footer h1 {
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
+  .container {
+    max-width: 800px;
+  }
 }
